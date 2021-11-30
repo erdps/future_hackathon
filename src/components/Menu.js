@@ -37,8 +37,43 @@ export default class Menu extends Component {
       {/* Sidebar Menu */}
       <nav className="mt-2">
         <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+         <li class="nav-item menu-open">
+      <a href="#" class="nav-link active">
+        <i class="nav-icon fas fa-tachometer-alt"></i>
+        <p> Dashboard <i class="right fas fa-angle-left">
+          </i>
+        </p>
+      </a>
+      <ul class="nav nav-treeview">
+        <li class="nav-item">
+          <a href="pages/Doctors.js" class="nav-link active">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Page One</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Page Two</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Page Three</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="far fa-circle nav-icon"></i>
+            <p>Page Four</p>
+          </a>
+        </li>
+      </ul>
+    </li>        
+      {/* <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           {/* Add icons to the links using the .nav-icon class
-         with font-awesome or any other icon font library */}
+         with font-awesome or any other icon font library }
          <li class="nav-item menu-open">
       <a href="#" class="nav-link active">
         <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -60,7 +95,7 @@ export default class Menu extends Component {
           </a>
         </li>
       </ul>
-    </li>
+    </li> */}
         <li className="nav-item">
           <a href="#" className="nav-link">
             <i className="nav-icon fas fa-th" />
@@ -69,36 +104,8 @@ export default class Menu extends Component {
               </p>
             </a>
           </li>
-        </ul>
-
-        {/* <li className="nav-item">
-  <a href="#" className="nav-link">
-    <i className="nav-icon fas fa-search" />
-    <p>
-      Search
-      <i className="fas fa-angle-left right" />
-    </p>
-  </a>
-  <ul className="nav nav-treeview">
-    <li className="nav-item">
-      <a href="pages/search/simple.html" className="nav-link">
-        <i className="far fa-circle nav-icon" />
-        <p>Simple Search</p>
-      </a>
-    </li>
-    <li className="nav-item">
-      <a href="pages/search/enhanced.html" className="nav-link">
-        <i className="far fa-circle nav-icon" />
-        <p>Enhanced</p>
-      </a>
-    </li>
-  </ul>
-</li> */}
-
-
-
-
-      </nav>
+        </ul>      
+     </nav>
       {/* /.sidebar-menu */}
     </div>
     {/* /.sidebar */}
