@@ -13,7 +13,6 @@ $npm install firebase
 
 $$npm add react-router-dom@6 history@5
 
-$npm install -g firebase-tools
 
 ## Available Scripts
 
