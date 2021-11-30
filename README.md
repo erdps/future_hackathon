@@ -7,7 +7,8 @@ Download it here https://nodejs.org/en/download/
 
 Then cd to your project folder, run:
 
-$npm install ,
+$npm install
+
 $npm install -g firebase-tools
 
 ## Available Scripts
