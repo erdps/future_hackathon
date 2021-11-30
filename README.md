@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You need to install nodejs before going through.
 Download it here https://nodejs.org/en/download/
 
+Then cd to your project folder, run:
+
+$npm install
+
 ## Available Scripts
 
 In the project directory, you can run:
