@@ -17,4 +17,4 @@ $npm start
 
 That will start the website development on localhost:3000
 
-![preview](https://user-images.githubusercontent.com/91133873/143982024-c49fa144-b9f4-4a42-8443-e8328c8ab4d8.png)
+![preview](https://user-images.githubusercontent.com/91133873/143982460-629761a7-eb0a-49a3-9b56-3813ed3c2308.png)
